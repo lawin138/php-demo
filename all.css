@@ -1,0 +1,692 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    background-color: #efede7;
+    padding:0;
+    margin:0;
+}
+/*以下開始網站設定*/
+.wrap{
+    max-width:1000px;
+    height:auto;
+    margin:0 auto;
+   
+}
+/*以下設定是nav, header.php*/
+.nav{
+    max-width:1000px;
+    height:400px;
+    margin:0 auto;
+}
+@media(max-width:500px){
+    .nav{
+        width:100%;
+        height:220px;
+    }
+}
+.nav .clientMenu{
+    max-width:1000px;
+    height:25px;
+    background-color: #efede7;
+    display:flex;
+    justify-content:right;
+}
+.clientMenu li {
+    background-color: #ad0257;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
+    padding-top:5px;
+    margin-right: 10px;
+}
+.clientMenu li a{
+    font-size: 18px;
+    padding:5px 0 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+.clientMenu li a:hover{
+    color: #fcf802;
+}
+
+.nav .clientMenu-1 {
+    max-width:1000px;
+    height: 25px;
+    background-color: #efede7;
+    display: flex;
+    justify-content: left;
+}
+.nav .clientMenu-1 li {
+    background-color: #ad0257;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.clientMenu-1 li a {
+    font-size: 18px;
+    padding: 5px 0 0 0;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.clientMenu-1 li a:hover {
+    color: #fcf802;
+}
+.clientMenu-1 .clientWord{
+    background-color: #ad0257;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 5px;
+}
+.clientMenu-1 .clientWord  a:hover{
+    color: #fcf802;
+}
+.logIn{
+    background-color: #ad0257;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 5px;
+}
+/*以下是social-bar,FB和Twitter*/
+.social-bar {
+    display: flex;
+    justify-content: end;
+    max-width: 1000px;
+    height: 30px;
+    background-color: #e8e8e7;
+    margin-bottom: 0px;
+}
+@media(max-width:500px){
+    .social-bar{
+    margin-bottom: 10px;
+    }
+}
+.social-bar .img {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.social-bar span {
+    width: 80px;
+    height: 24px;
+    display: inline-block;
+    background-color: #d3d2d2;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 6px;
+    border: 0.5px solid #6a6969;
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media(max-width:768px) {
+    .social-bar span {
+        margin-right: 0px;
+        width: 50px;
+    }
+}
+
+span a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+@media(max-width:500px){
+    span a{
+        font-size: 14px;
+    }
+}
+@media(max-width:768px){
+    span a{
+        font-size: 16px;
+    }
+}
+span a:hover {
+    color: #fcf802;
+}
+
+/*以下是postPic-banner圖片*/
+.postPic {
+    max-width: 1000px;
+    height:310px;
+    background-image: url(/php-demo/image/beautywatches.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+@media(max-width:768px) {
+    .postPic {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media(max-width:500px){
+    .postPic{
+        width:400px;
+        height:120px;
+    }
+}
+
+
+/*以下是index.php /bar*/
+.mainPoint{
+    max-width:450px;
+    height: 30px;
+    margin:0 auto;
+    margin-top: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+.mainPoint h1, h2{
+    font-size: 20px;
+    text-decoration: none;
+    color:#ad0257;
+    font-weight: bold;
+    background-color:#fff;
+    padding:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*以下是index.php/ productList圖片*/
+.productList {
+    max-width: 1000px;
+    height: auto; 
+    display: flex;
+    justify-content:space-between;
+}
+@media(max-width:768px){
+    .productList{
+        display:inline-block;
+        justify-content: unset;
+        margin-left: 260px;
+    }
+}
+@media(max-width:500px){
+    .productList{
+        margin-left:75px;
+        font-size: 20px;
+    }
+}
+.productList img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+.productList .ul-2 {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-left: 1.5px;
+    text-align: center;
+}
+
+.productList .liList {
+    width: 247.5px;
+    height: 430px;
+    border: 1px solid #fcf802;
+    background-color: #fff;
+}
+.liList a{
+    text-decoration: none;
+}
+.liList a:hover{
+    color:#fcf802;
+}
+
+.liList .h2-2  a{
+    text-decoration: none;
+    color: #ad0257;
+    font-weight: bold;
+}
+
+.liList .h2-2 a:hover {
+    color: #fcf802;
+}
+.productList span {
+    font-size: 16px;
+    display: block;
+    background-color: #fff;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+.productList span a{
+    text-decoration: none;
+    color:#ad0257;
+}
+.container{
+    font-size: 18px;
+    text-align: justify;
+    max-width:600px;
+    height:auto;
+    margin:0 auto;
+    background-color: #efede7;
+}
+.container .h1-1{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    background-color:#ad0257;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .p-1{
+    padding:15px;
+    font-size: 20px;
+    color: #280b01;
+}
+.listname{
+    text-align: center;
+    width: 80px;
+    height: 23px;
+    margin-left: 10px;
+}
+.listname  .name-1{
+    width: 100px;
+    height: 23px;
+    padding-top: 7px;
+    display:inline-block;
+    background-color: #ad0257;
+    border: 0.5px solid #280b01;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.name-1  a{
+    text-decoration: none;
+    text-align: 18px;
+    color:#fff;
+    vertical-align: middle;
+}
+.name-1  a:hover{
+    color:#fcf802;     
+}
+
+/*以下設定是footer*/
+.footer{
+    max-width:1000px;
+    height:332px;
+    background-color: #efede7;
+    margin-top:250px;
+}
+@media(max-width:500px){
+    .footer{
+        height:306px;
+        width:100%;
+    }
+}
+@media(max-width:768px){
+    .footer{
+        height:306px;
+        width:100%;
+    }
+}
+.footer img{
+    width:335px;
+    height:190px;
+    margin:0 auto;
+}
+@media(max-width:768px){
+    .footer img{
+        width:100%;
+        height:140px;
+        margin:0;
+    }
+}
+.fspace-1{
+    height:195px;
+    width:1000px;
+    margin:0 auto;
+}
+@media(max-width:768px){
+    .fspace-1{
+        height:142px;
+        width:100%;
+
+    }
+}
+@media(max-width:500px) {
+    .fspace-1 {
+        display: none;
+    }
+}
+.fSpace {
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+
+}
+.fSpace .f1, .f2, .f3{
+    width:330px;
+    height:190px;
+    border-top: 2.5px solid #fff;
+    border:1.5px solid #fff;
+    
+}
+@media(max-width:768px){
+    .fspace .f1, .f2, .f3{
+        height:142px;
+        width:100%;
+    }
+}
+.fSpace-2{
+    max-width:1000px;
+    height:140px;
+    text-align: center;
+    vertical-align: middle;
+    border:1.5px solid #fff;
+    background-color: rgb(210, 210, 210);
+}
+@media(max-width:768px) {
+    .fspace-2{
+        height: 143px;
+        width: 100%;
+
+    }
+}
+.fSpace-2 .h-3{
+    color:#fff;
+    font-size: 16px;
+    background-color:#ad0257;
+    border-top: 1.5px solid #fff;
+    padding:8px 5px 5px 5px;
+    width:80px;
+   text-align: center;
+   display:inline-block;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.fSpace-2 .h-3 .tail{
+    padding:10px;
+    font-size: 16px;
+}
+/*以下設定是order-completed.php*/
+.container-1{
+    max-width:500px;
+    height:150px;
+    margin:0 auto;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    background-color: #efede7;
+    border:1.5px dotted #ad0257;
+    text-align: center;
+}
+.container-1 .h1-3{
+    display:inline-block;
+    width:140px;
+    height:22px;
+    background-color: #ad0257;
+    color:#fff;
+    text-align: center;
+    padding-top: 7px;
+}
+.container-1 .thankYouText{
+    color:#ad0257;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/*以下設定是order.php/form(login & logout)*/
+.form-space{
+    max-width:1000px;
+    height:350px;
+    background-color: none;
+    margin:0 auto;
+    margin-bottom: 300px;
+}
+.form{
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 59px;
+    max-width:500px;
+    height:350px;
+    background-color:#fff;
+    border-bottom: 30px solid #fcf802;
+    border-top: 30px solid #b7b6b6;
+    text-align:center;
+}
+.form .buyBtn{
+    font-size: 18px;
+    background-color: #ad025793 ;
+    color:#fff;
+    margin-top:40px;
+}
+.form .label{
+    font-size: 16px;
+    color:#ad0257;
+    margin-top:40px;
+    font-weight: 700;
+}
+.form .h2Order{
+    color:black;
+    border:0.6px solid black;
+    padding:5px;
+    width:150px;
+    display:inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*以下是allOrder設定*/
+.allOrder-1{
+    width:600px;
+    height:auto;
+    margin:0 auto;
+    border: #ad0257 dotted;
+}
+.allOrder-1 .order{
+    font-size: 20px;
+    border:0.5px solid #280b01;
+    padding:15px;
+}
+.h1-4{
+    display:block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color:#ad0257;
+    background-color: #efede7;
+    margin-bottom: 20px;
+}
+.logone{
+    font-size: 20px;
+    display:block;
+    color: #ad0257;
+    background-color: #e8e8e7;
+    margin:0 auto;
+    text-align: center;
+}
+
+/*以下是morePic設定*/
+.morePic {
+    max-width: 250px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+@media(max-width:768px) {
+     .morePic{
+        margin-top:0;
+     }
+}    
+
+.morePic img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+
+.morePic .ul-2 {
+    max-width:250px;
+    height: auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.morePic .liList {
+    width: 247.5px;
+    height: 430px;
+    border: 1px solid #fcf802;
+    background-color: #fff;
+}
+
+.morePic .liList a {
+    text-decoration: none;
+}
+
+.morePic .liList a:hover {
+    color: #fcf802;
+}
