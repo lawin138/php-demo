@@ -509,7 +509,7 @@ span a:hover {
     width: 330px;
     height: 190px;
     border-top: 2.5px solid #fff;
-    border: 1.5px solid #fff;
+    border: 2px solid #fff;
     background-image: url("./image/footerpic-1.png");
     background-position: center center;
     background-size: contain;
@@ -519,7 +519,7 @@ span a:hover {
     width: 330px;
     height: 190px;
     border-top: 2.5px solid #fff;
-    border: 1.5px solid #fff;
+    border: 2px solid #fff;
     background-image: url("./image/footerpic-2.png");
     background-position: center center;
     background-size: contain;
@@ -529,7 +529,7 @@ span a:hover {
     width:330px;
     height:190px;
     border-top: 2.5px solid #fff;
-    border:1.5px solid #fff;
+    border:2px solid #fff;
     background-image: url("./image/footerpic-3.png");
     background-position: center center;
     background-size: contain;
