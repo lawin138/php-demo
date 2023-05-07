@@ -1,21 +1,14 @@
-
-
+<link rel ="stylesheet" href="./all.css">
 <div class="footer">
+
 <div class="fspace-1">    
   <ul class="fSpace">
-    <li class="f1">
-      <img src="./image/footerpic-1.png" max-width="330px"  height="190px" alt="tooter-1">  
-
-    </li>
-    <li class="f2">
-      <img src="./image/footerpic-2.png" max-width="330px"  height="190px" alt="tooter-1">
-    
-    </li>
-    <li class="f3">
-    <img src="./image/footerpic-3.png" max-width="330px"  height="190px" alt="tooter-1">
-    </li>   
+    <li class="f1"></li>
+    <li class="f2"></li>
+    <li class="f3"></li>   
   </ul>
 </div> 
+
 <div class="fSpace-2">
     <h3 class="h-3">聯絡方法</h3>
     <p class="tail">

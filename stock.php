@@ -43,7 +43,7 @@ $gems =
 $morepics =
 [
     [
-    'morePic_id'    => 1,
+    'morepic_id'    => 1,
     'name'          => '黑金剛',
     'price'         => 18000,
     'image'         => '5.png',
@@ -51,7 +51,7 @@ $morepics =
     ],
 
     [
-    'morePic_id'    => 2,
+    'morepic_id'    => 2,
     'name'          => '海王星',
     'price'         => 26000,
     'image'         => '6.png',
@@ -59,7 +59,7 @@ $morepics =
     ],
     
     [
-    'morePic_id'    => 3,
+    'morepic_id'    => 3,
     'name'          => '強悍T型',
     'price'         => 36000,
     'image'         => '7.png',
@@ -67,7 +67,7 @@ $morepics =
     ],
 
     [
-    'morePic_id'    => 4,
+    'morepic_id'    => 4,
     'name'          => '綠油油',
     'price'         => 21000,
     'image'         => '8.png',
@@ -75,7 +75,7 @@ $morepics =
     ],
 
     [
-    'morePic_id'    => 5,
+    'morepic_id'    => 5,
     'name'          => '大地新星',
     'price'         => 24000,
     'image'         => '9.png',

@@ -2,7 +2,7 @@
 include("./header.php"); 
 ?>
 
-<div class="morePic"> 
+<div class="morepic"> 
 <?php
 /* $morepicQ = mysqli_query($dbConnection, "SELECT * FROM `morepic`");
 
@@ -16,7 +16,7 @@ foreach($morepics as $key => $morepic)
         <p>
         名稱：'.$morepic['name'].'<br/>
         價格：$'.$morepic['price'].'<br/>
-        <a href="./morePicOrder.php?morePic_id='.$morepic['morePic_id'].'" class="buyBtn">預訂：'.$morepic['name'].'</a><br/>
+        <a href="./morepicOrder.php?morepic_id='.$morepic['morepic_id'].'" class="buyBtn">預訂：'.$morepic['name'].'</a><br/>
         </li></ul>'; 
          
         }  
